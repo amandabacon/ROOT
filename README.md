@@ -1,7 +1,7 @@
 # ROOT
 ROOT graphs and other functions.
 
-###dichroic_dark_box/
+### dichroic_dark_box/
 ------------------
 plot_wavelengths.py
 - Dichroic filter characterization tests. Contains a hard-coded method for graphing percent reflectance, transmittance, and sum at various incidence angles and LEDs. This is a heat map version.
@@ -15,7 +15,7 @@ sum_graph.cpp
 trans_graph.cpp
 - Dichroic filter characterization tests. Contains a hard-coded method for graphing percent transmittance at various incidence angles and LEDs. 
 
-###spectrometer/
+### spectrometer/
 -------------
 air_per.txt
 - Blank layout for hard-coded filter/sans filter data for tranmission percentages.
