@@ -64,7 +64,7 @@ transmission_data = [
 [505, 65.0, ],
 [505, 70.0, ],
 # reverse here (this depends on if it's a longpass or shortpass filter)
-[525, 0.0,],
+[525, 0.0, ],
 [525, 5.0, ],
 [525, 10.0, ],
 [525, 15.0, ],
@@ -173,7 +173,7 @@ reflection_data = [
 [505, 65.0, ],
 [505, 70.0, ],
 # reverse here (this depends on if it's a longpass or shortpass filter)
-[525, 0.0, 059734941],
+[525, 0.0, ],
 [525, 5.0, ],
 [525, 10.0, ],
 [525, 15.0, ],
@@ -367,7 +367,7 @@ if __name__=='__main__':
     g.GetHistogram().GetYaxis().SetLabelFont(132)
     g.GetHistogram().GetZaxis().SetLabelFont(132)
 
-    g.GetHistogram().GetXaxis().SetTitle("Incident Angle (circ)")
+    g.GetHistogram().GetXaxis().SetTitle("Incident Angle (#circ)")
     g.GetHistogram().GetYaxis().SetTitle("Wavelength (nm)")
     g.GetHistogram().GetZaxis().SetTitle(xaxis)
     
