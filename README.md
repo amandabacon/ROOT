@@ -23,6 +23,13 @@ air_per.txt
 all_incidence.py
 -Hard-coded filenames for all incidence angles to get specific wavelengths and their respective intensities in order to get the percent transmission.
 
+all_incidence_auto_35.py
+-Automated apporach to the orignal code. This requires that you use the cat.txt approach to create a .csv file. Measured to 35 degree incidence.
+
+all_incidence_auto_45.py
+-Automated apporach to the orignal code. This requires that you use the cat.txt
+approach to create a .csv file. Same as above, but this means that you have measured to 45 degree incidence.
+
 per_trans.py
 -Calculator for division, average, and double ratios in order to get transmission, reflection, and sum percentages.
 
